@@ -14,7 +14,7 @@ Demo
 ## Installation
 
 1. Clone repo  
-   `git clone https://github.com/chalana/X-UI-Config-Status-Dashboard.git`  
+   `git clone https://github.com/ChalanaGimhanaX/X-UI-Config-Status-Dashboard.git`  
 2. Install dependencies  
    ```bash
    cd "c:\Users\chala\X-UI Config Status Dashboard"
