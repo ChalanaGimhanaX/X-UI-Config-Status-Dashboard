@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"></footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X-UI Config Status Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- QR Code Library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="background-3d">
+    <div class="container glass">
+      <div class="login-container card glass-card" id="login-container">
+        <div class="login-header">
+          <div class="app-logo neon-glow">
+            <i class="fas fa-globe-americas"></i>
+          </div>
+          <h1 class="gradient-text">X-UI Config Status</h1>
+          <p>Enter username_id to check configuration status</p>
+        </div>
+        <div class="login-form">
+          <input type="text" id="username-input" placeholder="Enter username_id (e.g., user_12345)">
+          <button class="btn btn-block neon-btn" id="search-btn">Check Status</button>
+          <div class="error-message" id="login-error"></div>
+        </div>
+      </div>
+
+      <div class="dashboard" id="dashboard">
+        <div class="dashboard-header glass-card">
+          <div class="header-content">
+            <h1 class="gradient-text"><i class="fas fa-server"></i> Configuration Status Dashboard</h1>
+            <button class="btn neon-btn" id="logout-btn"><i class="fas fa-arrow-left"></i> Back to Search</button>
+          </div>
+        </div>
+        <div class="loader neon-loader" id="loader"></div>
+        <div class="panel-container" id="panel-container">
+          <!-- Status panels will be inserted here dynamically -->
+        </div>
+      </div>
+      
+      <footer class="footer glass-card">
+        <p>
+          Made with <i class="fas fa-heart"></i> by
+          <a href="https://github.com/chalana/X-UI-Config-Status-Dashboard" target="_blank" class="gradient-text">
+            chAlnA
+          </a>
+        </p>
+      </footer>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
