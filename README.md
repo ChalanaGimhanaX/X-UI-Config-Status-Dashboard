@@ -17,7 +17,7 @@ Demo
    `git clone https://github.com/ChalanaGimhanaX/X-UI-Config-Status-Dashboard.git`  
 2. Install dependencies  
    ```bash
-   cd "c:\Users\chala\X-UI Config Status Dashboard"
+   cd X-UI Config Status Dashboard"
    npm install
    ```
 3. Copy `.env.example` → `.env` and fill values  
