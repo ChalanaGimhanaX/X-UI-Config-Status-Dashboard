@@ -57,6 +57,6 @@ API_PORT=3000
 
 ## Contributing
 
-Made by [chAlnA](https://github.com/chalana) ❤️  
+Made by [chAlnA](https://github.com/ChalanaGimhanaX) ❤️  
 Feel free to open issues or PRs.
 
